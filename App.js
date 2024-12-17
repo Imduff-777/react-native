@@ -1,15 +1,15 @@
 import { StyleSheet, Text, View } from 'react-native';
-import Title from './src/components/index'
+import Title from './src/components/title/index'
+import Main from './src/components/main/index'
 
 export default function App() {
   return(
       <View style={styles.container}>
           <Title/>
+          <Main/>
       </View>
     );
 }
-
-
 
 const styles = StyleSheet.create({
   container: {
@@ -18,6 +18,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
-
- 
+}); 
